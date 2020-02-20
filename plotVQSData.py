@@ -123,11 +123,11 @@ axis.legend() ;
 fig, axis = plt.subplots(nrows=1, ncols=1)
 axis.set_title( "VeryQuickSort on random and almost sorted data")
 
-h = plot1( axis, random, newColorMap, 2000, 100 )
+h = plot1( axis, random, newColorMap, 800, 100 )
 plot2( axis, average, 'o', 'black', 'Average case (based on 127,400 random arrays)' )
 
 springCM = cm.get_cmap('spring', 256)
-h = plot1( axis, almost, springCM, 2000, 100 )
+h = plot1( axis, almost, springCM, 800, 100 )
 plot2( axis, almostAv, '*', 'black', 'Average on almost sorted arrays.' )
 
 plot2( axis, sorted, 'v', 'black', 'Best case (ascending arrays)' )
