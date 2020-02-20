@@ -98,7 +98,7 @@ public class VeryQuickSort {
 			counts[STORE] += 1 ;
 			q = q-1 ;
 		}
-		a[q] = x ;
+		a[q] = x ; counts[STORE] += 1 ;
 		results[Q] = q ;
 	}
 
